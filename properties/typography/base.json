@@ -1,0 +1,41 @@
+{
+    "header": {
+        "h1": {
+            "size": {"value": "{font.size.fs42.value}"},
+            "weight": {"value": "{font.header.default.weight.value}"},
+            "lineHeight": {"value": "{font.header.default.lineHeight.value}"}
+        },
+        "h2": {
+            "size": {"value": "{font.size.fs36.value}"},
+            "weight": {"value": "{font.header.default.weight.value}"},
+            "lineHeight": {"value": "{font.header.default.lineHeight.value}"}
+        },
+        "h3": {
+            "size": {"value": "{font.size.fs28.value}"},
+            "weight": {"value": "{font.header.default.weight.value}"},
+            "lineHeight": {"value": "{font.header.default.lineHeight.value}"}
+        },
+        "h4": {
+            "size": {"value": "{font.size.fs24.value}"},
+            "weight": {"value": "{font.header.default.weight.value}"},
+            "lineHeight": {"value": "{font.header.default.lineHeight.value}"}
+        },
+        "h5": {
+            "size": {"value": "{font.size.fs20.value}"},
+            "weight": {"value": "{font.header.alt.weight.value}"},
+            "lineHeight": {"value": "{font.header.alt.lineHeight.value}"}
+        },
+        "h6": {
+            "size": {"value": "{font.size.fs16.value}"},
+            "weight": {"value": "{font.header.alt.weight.value}"},
+            "lineHeight": {"value": "{font.header.alt.lineHeight.value}"}
+        }
+    },
+    "interface": {
+        "01": {
+            "size": { "value": " { font.size.fs11.value }" },
+            "weight": { "value": "{font.weight.semibold.value}" },
+            "lineHeight": {"value": " { font.lineHeight.xs.value }" }
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "font": {
+        "family": {
+            "name": { "value": "Nunito Sans, sans-serif" }
+        },
+        "size": {
+            "fs11": { "value": "{size.11.value}" },
+            "fs12": { "value": "{size.12.value}" },
+            "fs14": { "value": "{size.14.value}" },
+            "fs16": { "value": "{size.16.value}" },
+            "fs20": { "value": "{size.20.value}" },
+            "fs24": { "value": "{size.24.value}" },
+            "fs28": { "value": "{size.28.value}" },
+            "fs36": { "value": "{size.36.value}" },
+            "fs42": { "value": "{size.42.value}" },
+            "fs56": { "value": "{size.56.value}" },
+            "fs64": { "value": "{size.64.value}" },
+            "fs92": { "value": "{size.92.value}" },
+            "base": { "value": "{font.size.fs12.value}"}
+        },
+        "lineHeight": {
+            "base": { "value": "{font.lineHeight.md.value}" },
+            "xs":   { "value": "100%"  },
+            "sm":   { "value": "115%" },
+            "md":   { "value": "130%"  },
+            "lg":   { "value": "150%"  }
+        },
+        "weight": {
+            "thin":     { "value": "300"},
+            "regular":  { "value": "400"},
+            "semibold": { "value": "600"}
+        }
+    }
+}
