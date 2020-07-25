@@ -1,0 +1,47 @@
+{
+    "typography": {
+        "styles": {
+            "header": {
+                "font": {"value": "{global.typography.font.alt.value}"},
+                "h1": {
+                    "size": {"value": "{global.typography.step.11.value}"},
+                    "weight": {"value": "{typography.base.header.default.weight.value}"},
+                    "lineHeight": {"value": "{typography.base.header.default.lineHeight.value}"}
+                },
+                "h2": {
+                    "size": {"value": "{global.typography.step.10.value}"},
+                    "weight": {"value": "{typography.base.header.default.weight.value}"},
+                    "lineHeight": {"value": "{typography.base.header.default.lineHeight.value}"}
+                },
+                "h3": {
+                    "size": {"value": "{global.typography.step.9.value}"},
+                    "weight": {"value": "{typography.base.header.default.weight.value}"},
+                    "lineHeight": {"value": "{typography.base.header.default.lineHeight.value}"}
+                },
+                "h4": {
+                    "size": {"value": "{global.typography.step.8.value}"},
+                    "weight": {"value": "{typography.base.header.default.weight.value}"},
+                    "lineHeight": {"value": "{typography.base.header.default.lineHeight.value}"}
+                },
+                "h5": {
+                    "size": {"value": "{global.typography.step.7.value}"},
+                    "weight": {"value": "{typography.base.header.alt.weight.value}"},
+                    "lineHeight": {"value": "{typography.base.header.alt.lineHeight.value}"}
+                },
+                "h6": {
+                    "size": {"value": "{global.typography.step.6.value}"},
+                    "weight": {"value": "{typography.base.header.alt.weight.value}"},
+                    "lineHeight": {"value": "{typography.base.header.alt.lineHeight.value}"}
+                }
+            },
+            "interface": {
+                "font": {"value": "{global.typography.font.default.value}"},
+                "01": {
+                    "size": { "value": " {global.typography.step.3.value}" },
+                    "weight": { "value": "{global.typography.weight.semibold.value}" },
+                    "lineHeight": {"value": " {global.typography.lineHeight.xs.value }" }
+                }
+            }
+        }
+    }
+}

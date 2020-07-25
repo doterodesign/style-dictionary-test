@@ -1,0 +1,36 @@
+{
+    "color": {
+     "stoplight": {
+            "error": {
+                "light": { 
+                    "default":  {"value": "{color.system.red.light.default.value}"},
+                    "contrast": {"value": "{color.system.red.light.contrast.value}"}
+                },
+                "dark": { 
+                    "default":  {"value": "{color.system.red.dark.default.value}"},
+                    "contrast": {"value": "{color.system.red.dark.contrast.value}"}
+                }
+            },
+            "success": {
+                "light": { 
+                    "default":  {"value": "{color.system.green.light.default.value}"},
+                    "contrast": {"value": "{color.system.green.light.contrast.value}"}
+                },
+                "dark": { 
+                    "default":  {"value": "{color.system.green.dark.default.value}"},
+                    "contrast": {"value": "{color.system.green.dark.contrast.value}"}
+                }
+            },
+            "warning": {
+                "light": { 
+                    "default":  {"value": "{color.system.yellow.light.default.value}"},
+                    "contrast": {"value": "{color.system.yellow.light.contrast.value}"}
+                },
+                "dark": { 
+                    "default":  {"value": "{color.system.yellow.dark.default.value}"},
+                    "contrast": {"value": "{color.system.yellow.dark.contrast.value}"}
+                }
+            }
+        }
+    }
+}

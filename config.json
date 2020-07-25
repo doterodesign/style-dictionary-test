@@ -3,7 +3,7 @@
   "platforms": {
     "scss": {
       "transformGroup": "scss",
-      "transforms": ["attribute/cti", "name/cti/kebab", "color/hsl", "size/rem"],
+      "transforms": ["attribute/cti", "name/cti/kebab", "color/hsl", "size/remToPx"],
       "buildPath": "build/scss/",
       "files": [{
         "destination": "_variables.scss",
@@ -12,7 +12,7 @@
     },
     "json": {
       "transformGroup": "json",
-      "transforms": ["attribute/cti", "name/cti/kebab", "color/hex", "size/rem"],
+      "transforms": ["attribute/cti", "name/cti/kebab", "color/hsl", "size/rem"],
       "buildPath": "build/json/",
       "files": [{
         "destination": "_variables.json",
