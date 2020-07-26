@@ -1,0 +1,90 @@
+{
+    "color": {
+        "global": {
+                "teal": {
+                    "50" :  { "value": "#BFEFF5",  "attributes":  {"font": "base"}},
+                    "75" :  { "value": "#9BE8F2",  "attributes":  {"font": "base"}},
+                    "100" : { "value": "#47C6D4",  "attributes":  {"font": "base"}},
+                    "200" : { "value": "#00999E",  "attributes":  {"font": "base"}},
+                    "300" : { "value": "#008296",  "attributes":  {"font": "base"}},
+                    "400" : { "value": "#00666B",  "attributes":  {"font": "inverse"}},
+                    "500" : { "value": "#00454F",  "attributes":  {"font": "inverse"}}
+                },
+                "yellow": {
+                    "50" :  { "value": "#FEEDB3",  "attributes":  {"font": "base"}},
+                    "75" :  { "value": "#FBDE7E",  "attributes":  {"font": "base"}},
+                    "100" : { "value": "#F3CF59",  "attributes":  {"font": "base"}},
+                    "200" : { "value": "#DEAE12",  "attributes":  {"font": "base"}},
+                    "300" : { "value": "#947200",  "attributes":  {"font": "base"}},
+                    "400" : { "value": "#634D03",  "attributes":  {"font": "base"}},
+                    "500" : { "value": "#332805",  "attributes":  {"font": "inverse"}}
+                },
+                "blue": { 
+                    "50" :  { "value": "#D1EAFF",  "attributes":  {"font": "base"}},
+                    "75" :  { "value": "#B5DFFD",  "attributes":  {"font": "base"}},
+                    "100" : { "value": "#59B0EE",  "attributes":  {"font": "base"}},
+                    "200" : { "value": "#1A81CB",  "attributes":  {"font": "base"}},
+                    "300" : { "value": "#1266AB",  "attributes":  {"font": "base"}},
+                    "400" : { "value": "#183759",  "attributes":  {"font": "inverse"}},
+                    "500" : { "value": "#11213B",  "attributes":  {"font": "inverse"}}
+                },
+                "red": {
+                    "50" :  { "value": "#FED4D2",  "attributes":  {"font": "base"}},
+                    "75" :  { "value": "#FFABA3",  "attributes":  {"font": "base"}},
+                    "100" : { "value": "#F57470",  "attributes":  {"font": "base"}},
+                    "200" : { "value": "#DB3B39",  "attributes":  {"font": "base"}},
+                    "300" : { "value": "#B02318",  "attributes":  {"font": "base"}},
+                    "400" : { "value": "#750000",  "attributes":  {"font": "inverse"}},
+                    "500" : { "value": "#4D0000",  "attributes":  {"font": "inverse"}}
+                },
+                "green": {
+                    "50" :  { "value": "#DDF3E0",  "attributes":  {"font": "base"}},
+                    "75" :  { "value": "#C9E8CD",  "attributes":  {"font": "base"}},
+                    "100" : { "value": "#92C398",  "attributes":  {"font": "base"}},
+                    "200" : { "value": "#5BA463",  "attributes":  {"font": "base"}},
+                    "300" : { "value": "#35793D",  "attributes":  {"font": "base"}},
+                    "400" : { "value": "#0E5D18",  "attributes":  {"font": "inverse"}},
+                    "500" : { "value": "#063D0C",  "attributes":  {"font": "inverse"}}
+                },
+                "orange": {
+                    "50" :  { "value": "#FEDED2",  "attributes":  {"font": "base"}},
+                    "75" :  { "value": "#FFBFA8",  "attributes":  {"font": "base"}},
+                    "100" : { "value": "#FF936B",  "attributes":  {"font": "base"}},
+                    "200" : { "value": "#E4541B",  "attributes":  {"font": "base"}},
+                    "300" : { "value": "#BF3908",  "attributes":  {"font": "base"}},
+                    "400" : { "value": "#751F00",  "attributes":  {"font": "inverse"}},
+                    "500" : { "value": "#4D1A00",  "attributes":  {"font": "inverse"}}
+                },
+                "purple": { 
+                    "50" :  { "value": "#F8D7FC",  "attributes":  {"font": "base"}},
+                    "75" :  { "value": "#F9C4FF",  "attributes":  {"font": "base"}},
+                    "100" : { "value": "#F187F5",  "attributes":  {"font": "base"}},
+                    "200" : { "value": "#DB60C5",  "attributes":  {"font": "base"}},
+                    "300" : { "value": "#C242AA",  "attributes":  {"font": "base"}},
+                    "400" : { "value": "#A024AD",  "attributes":  {"font": "inverse"}},
+                    "500" : { "value": "#5D0E7D",  "attributes":  {"font": "inverse"}}
+                },
+                "neutral": {
+                    "0" :   { "value": "#FFFFFF",  "attributes":   {"font": "base"}},
+                    "10" :  { "value": "#FBFBFB",  "attributes":   {"font": "base"}},
+                    "20" :  { "value": "#F5F5F6",  "attributes":   {"font": "base"}},
+                    "30" :  { "value": "#ECEDEF",  "attributes":   {"font": "base"}},
+                    "40" :  { "value": "#E3E3E5",  "attributes":   {"font": "base"}},
+                    "50" :  { "value": "#D0D2D4",  "attributes":   {"font": "base"}},
+                    "60" :  { "value": "#BDBFC2",  "attributes":   {"font": "base"}},
+                    "70" :  { "value": "#ADAFB1",  "attributes":   {"font": "base"}},
+                    "80" :  { "value": "#A1A2A4",  "attributes":   {"font": "base"}},
+                    "90" :  { "value": "#97989B",  "attributes":   {"font": "base"}},
+                    "100" : { "value": "#898C90",  "attributes":   {"font": "base"}},
+                    "200" : { "value": "#7B7D82",  "attributes":   {"font": "inverse"}},
+                    "300" : { "value": "#76797D",  "attributes":   {"font": "inverse"}},
+                    "400" : { "value": "#616263",  "attributes":   {"font": "inverse"}},
+                    "500" : { "value": "#484A4B",  "attributes":   {"font": "inverse"}},
+                    "600" : { "value": "#2A2B2C",  "attributes":   {"font": "inverse"}},
+                    "700" : { "value": "#212223",  "attributes":   {"font": "inverse"}},
+                    "800" : { "value": "#131314",  "attributes":   {"font": "inverse"}},
+                    "900" : { "value": "#050609",  "attributes":   {"font": "inverse"}}
+                }
+        }
+    }
+}

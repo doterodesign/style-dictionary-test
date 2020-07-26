@@ -1,24 +1,22 @@
 {
-    "typography": {
-        "base": {
-            "header": {
-                "default": {
-                    "font": {"value": "{global.typography.font.alt.value}"},
-                    "weight": {     "value": "{global.typography.weight.regular.value}"},
-                    "lineHeight": { "value": "{global.typography.lineHeight.sm.value}" }
-                },
-                "alt": {
-                    "font": {"value": "{global.typography.font.alt.value}"},
-                    "weight": {     "value": "{global.typography.weight.semibold.value}"},
-                    "lineHeight": { "value": "{global.typography.lineHeight.md.value}" }
-                }
+    "font": {
+        "header": {
+            "default": {
+                "font": {"value": "{font.global.family.alt.value}"},
+                "weight": {     "value": "{font.global.weight.regular.value}"},
+                "lineHeight": { "value": "{font.global.lineHeight.sm.value}" }
             },
-            "body": {
-                "default": {
-                    "font": {"value": "{global.typography.font.default.value}"},
-                    "weight": {     "value": "{global.typography.weight.regular.value}" },
-                    "lineHeight": { "value": "{global.typography.lineHeight.lg.value}" }
-                }
+            "alt": {
+                "font": {"value": "{font.global.family.alt.value}"},
+                "weight": {     "value": "{font.global.weight.semibold.value}"},
+                "lineHeight": { "value": "{font.global.lineHeight.md.value}" }
+            }
+        },
+        "body": {
+            "default": {
+                "font": {"value": "{font.global.family.default.value}"},
+                "weight": {     "value": "{font.global.weight.regular.value}" },
+                "lineHeight": { "value": "{font.global.lineHeight.lg.value}" }
             }
         }
     }

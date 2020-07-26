@@ -1,0 +1,46 @@
+{
+    "color": {
+        "font": {
+            "primary": {
+                "light": { 
+                    "default":  {"value": "{color.global.neutral.900.value}"},
+                    "contrast": {"value": "{color.global.neutral.900.value}"}
+                },
+                "dark": { 
+                    "default":  {"value": "{color.global.neutral.0.value}"},
+                    "contrast": {"value": "{color.global.neutral.0.value}"}
+                }
+            },
+            "secondary": {
+                "light": { 
+                    "default":  {"value": "{color.global.neutral.700.value}"},
+                    "contrast": {"value": "{color.global.neutral.800.value}"}
+                },
+                "dark": { 
+                    "default":  {"value": "{color.global.neutral.30.value}"},
+                    "contrast": {"value": "{color.global.neutral.20.value}"}
+                }
+            },
+            "tertiary": {
+                "light": { 
+                    "default":  {"value": "{color.global.neutral.600.value}"},
+                    "contrast": {"value": "{color.global.neutral.700.value}"}
+                },
+                "dark": { 
+                    "default":  {"value": "{color.global.neutral.60.value}"},
+                    "contrast": {"value": "{color.global.neutral.50.value}"}
+                }
+            },
+            "quaternary": {
+                "light": { 
+                    "default":  {"value": "{color.global.neutral.400.value}"},
+                    "contrast": {"value": "{color.global.neutral.500.value}"}
+                },
+                "dark": { 
+                    "default":  {"value": "{color.global.neutral.90.value}"},
+                    "contrast": {"value": "{color.global.neutral.80.value}"}
+                }
+            }
+        }
+    }
+}
