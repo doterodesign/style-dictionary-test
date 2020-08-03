@@ -1,0 +1,56 @@
+{
+    "color": {
+        "font": {
+            "primary": {
+                "light": { 
+                    "default":  {"value": "{color.system.neutral.01.light.default.value}"},
+                    "contrast": {"value": "{color.system.neutral.01.light.contrast.value}"}
+                },
+                "dark": { 
+                    "default":  {"value": "{color.system.neutral.01.dark.default.value}"},
+                    "contrast": {"value": "{color.system.neutral.01.dark.contrast.value}"}
+                }
+            },
+            "secondary": {
+                "light": { 
+                    "default":  {"value": "{color.system.neutral.03.light.default.value}"},
+                    "contrast": {"value": "{color.system.neutral.03.light.contrast.value}"}
+                },
+                "dark": { 
+                    "default":  {"value": "{color.system.neutral.03.dark.default.value}"},
+                    "contrast": {"value": "{color.system.neutral.03.dark.contrast.value}"}
+                }
+            },
+            "tertiary": {
+                "light": { 
+                    "default":  {"value": "{color.system.neutral.04.light.default.value}"},
+                    "contrast": {"value": "{color.system.neutral.04.light.contrast.value}"}
+                },
+                "dark": { 
+                    "default":  {"value": "{color.system.neutral.04.dark.default.value}"},
+                    "contrast": {"value": "{color.system.neutral.04.dark.contrast.value}"}
+                }
+            },
+            "quaternary": {
+                "light": { 
+                    "default":  {"value": "{color.system.neutral.06.light.default.value}"},
+                    "contrast": {"value": "{color.system.neutral.06.light.contrast.value}"}
+                },
+                "dark": { 
+                    "default":  {"value": "{color.system.neutral.06.dark.default.value}"},
+                    "contrast": {"value": "{color.system.neutral.06.dark.contrast.value}"}
+                }
+            },
+            "link": {
+                "light": { 
+                    "default":  {"value": "{color.system.blue.light.default.value}"},
+                    "contrast": {"value": "{color.system.blue.light.contrast.value}"}
+                },
+                "dark": { 
+                    "default":  {"value": "{color.system.blue.dark.default.value}"},
+                    "contrast": {"value": "{color.system.blue.dark.contrast.value}"}
+                }
+            }
+        }
+    }
+}

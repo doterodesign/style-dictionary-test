@@ -1,0 +1,40 @@
+{
+    "component": {
+        "card": {
+            "header": {
+                "primary": {
+                    "color": {"value": "{color.font.secondary.light.default.value}"},
+                    "font-size": {"value": "{style.body.02.font-size.value}"}
+                },
+                "secondary": {
+                    "color": {"value": "{color.font.tertiary.light.default.value}"},
+                    "font-size": {"value": "{style.body.03.font-size.value}"}
+                }
+            },
+            "body": {
+                "primary": {
+                    "color": {"value": "{color.font.secondary.light.default.value}"},
+                    "font-size": {"value": "{style.body.03.font-size.value}"}
+                },
+                "secondary": {
+                    "color": {"value": "{color.font.tertiary.light.default.value}"},
+                    "font-size": {"value": "{style.body.04.font-size.value}"}
+                }
+            },
+            "background": {
+                "primary": {
+                    "background-color": {"value": "{color.background.primary.light.default.value}"}
+                },
+                "secondary": {
+                    "background-color": {"value": "{color.background.secondary.light.default.value}"}
+                }
+            },
+            "min-width": {
+                "sm": {"value": "200px"},
+                "md": {"value": "320px"},
+                "lg": {"value": "400px"},
+                "xl": {"value": "600px"}
+            }
+        }
+    }
+}

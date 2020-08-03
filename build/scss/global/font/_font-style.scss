@@ -1,0 +1,91 @@
+
+/*
+  Do not edit directly
+  Generated on Mon, 03 Aug 2020 01:25:29 GMT
+*/
+
+$eg-style-display-font-family: Publico, serif !default;
+$eg-style-display-font-weight-default: 400 !default;
+$eg-style-display-font-weight-alt: 600 !default;
+$eg-style-display-line-height: 115% !default;
+$eg-style-display-01-font-size: 2.625rem !default;
+$eg-style-display-02-font-size: 2.25rem !default;
+$eg-style-heading-font-weight-default: 400 !default;
+$eg-style-heading-font-weight-alt: 600 !default;
+$eg-style-heading-01-font-size: 2rem !default;
+$eg-style-heading-02-font-size: 1.75rem !default;
+$eg-style-heading-03-font-size: 1.5rem !default;
+$eg-style-heading-03-line-height: 130% !default;
+$eg-style-heading-04-font-size: 1.25rem !default;
+$eg-style-heading-04-line-height: 130% !default;
+$eg-style-body-font-family: Nunito Sans, sans-serif !default;
+$eg-style-body-font-weight-default: 400 !default;
+$eg-style-body-font-weight-alt: 600 !default;
+$eg-style-body-line-height: 150% !default;
+$eg-style-body-01-font-size:  1.125rem !default;
+$eg-style-body-02-font-size:  1rem !default;
+$eg-style-body-03-font-size:  0.875rem !default;
+$eg-style-body-04-font-size:  0.75rem !default;
+$eg-style-body-05-size:  0.6875rem !default;
+
+$font-style: (
+  'style': (
+    'display': (
+      'font-family': $eg-style-display-font-family,
+      'font-weight': (
+        'default': $eg-style-display-font-weight-default,
+        'alt': $eg-style-display-font-weight-alt
+      ),
+      'line-height': $eg-style-display-line-height,
+      '01': (
+        'font-size': $eg-style-display-01-font-size
+      ),
+      '02': (
+        'font-size': $eg-style-display-02-font-size
+      )
+    ),
+    'heading': (
+      'font-weight': (
+        'default': $eg-style-heading-font-weight-default,
+        'alt': $eg-style-heading-font-weight-alt
+      ),
+      '01': (
+        'font-size': $eg-style-heading-01-font-size
+      ),
+      '02': (
+        'font-size': $eg-style-heading-02-font-size
+      ),
+      '03': (
+        'font-size': $eg-style-heading-03-font-size,
+        'line-height': $eg-style-heading-03-line-height
+      ),
+      '04': (
+        'font-size': $eg-style-heading-04-font-size,
+        'line-height': $eg-style-heading-04-line-height
+      )
+    ),
+    'body': (
+      'font-family': $eg-style-body-font-family,
+      'font-weight': (
+        'default': $eg-style-body-font-weight-default,
+        'alt': $eg-style-body-font-weight-alt
+      ),
+      'line-height': $eg-style-body-line-height,
+      '01': (
+        'font-size': $eg-style-body-01-font-size
+      ),
+      '02': (
+        'font-size': $eg-style-body-02-font-size
+      ),
+      '03': (
+        'font-size': $eg-style-body-03-font-size
+      ),
+      '04': (
+        'font-size': $eg-style-body-04-font-size
+      ),
+      '05': (
+        'size': $eg-style-body-05-size
+      )
+    )
+  )
+);

@@ -1,0 +1,83 @@
+
+/*
+  Do not edit directly
+  Generated on Mon, 03 Aug 2020 01:25:29 GMT
+*/
+
+$eg-color-font-primary-light-default: rgb(255, 255, 255) !default;
+$eg-color-font-primary-light-contrast: rgb(255, 255, 255) !default;
+$eg-color-font-primary-dark-default: rgb(5, 6, 9) !default;
+$eg-color-font-primary-dark-contrast: rgb(5, 6, 9) !default;
+$eg-color-font-secondary-light-default: rgb(245, 245, 246) !default;
+$eg-color-font-secondary-light-contrast: rgb(251, 251, 251) !default;
+$eg-color-font-secondary-dark-default: rgb(33, 34, 35) !default;
+$eg-color-font-secondary-dark-contrast: rgb(19, 19, 20) !default;
+$eg-color-font-tertiary-light-default: rgb(236, 237, 239) !default;
+$eg-color-font-tertiary-light-contrast: rgb(245, 245, 246) !default;
+$eg-color-font-tertiary-dark-default: rgb(42, 43, 44) !default;
+$eg-color-font-tertiary-dark-contrast: rgb(33, 34, 35) !default;
+$eg-color-font-quaternary-light-default: rgb(208, 210, 212) !default;
+$eg-color-font-quaternary-light-contrast: rgb(227, 227, 229) !default;
+$eg-color-font-quaternary-dark-default: rgb(97, 98, 99) !default;
+$eg-color-font-quaternary-dark-contrast: rgb(72, 74, 75) !default;
+$eg-color-font-link-light-default: rgb(18, 102, 171) !default;
+$eg-color-font-link-light-contrast: rgb(24, 55, 89) !default;
+$eg-color-font-link-dark-default: rgb(26, 129, 203) !default;
+$eg-color-font-link-dark-contrast: rgb(89, 176, 238) !default;
+
+$token: (
+  'color': (
+    'font': (
+      'primary': (
+        'light': (
+          'default': $eg-color-font-primary-light-default,
+          'contrast': $eg-color-font-primary-light-contrast
+        ),
+        'dark': (
+          'default': $eg-color-font-primary-dark-default,
+          'contrast': $eg-color-font-primary-dark-contrast
+        )
+      ),
+      'secondary': (
+        'light': (
+          'default': $eg-color-font-secondary-light-default,
+          'contrast': $eg-color-font-secondary-light-contrast
+        ),
+        'dark': (
+          'default': $eg-color-font-secondary-dark-default,
+          'contrast': $eg-color-font-secondary-dark-contrast
+        )
+      ),
+      'tertiary': (
+        'light': (
+          'default': $eg-color-font-tertiary-light-default,
+          'contrast': $eg-color-font-tertiary-light-contrast
+        ),
+        'dark': (
+          'default': $eg-color-font-tertiary-dark-default,
+          'contrast': $eg-color-font-tertiary-dark-contrast
+        )
+      ),
+      'quaternary': (
+        'light': (
+          'default': $eg-color-font-quaternary-light-default,
+          'contrast': $eg-color-font-quaternary-light-contrast
+        ),
+        'dark': (
+          'default': $eg-color-font-quaternary-dark-default,
+          'contrast': $eg-color-font-quaternary-dark-contrast
+        )
+      ),
+      'link': (
+        'light': (
+          'default': $eg-color-font-link-light-default,
+          'contrast': $eg-color-font-link-light-contrast
+        ),
+        'dark': (
+          'default': $eg-color-font-link-dark-default,
+          'contrast': $eg-color-font-link-dark-contrast
+        )
+      )
+    )
+  )
+);

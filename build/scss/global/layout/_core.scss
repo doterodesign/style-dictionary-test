@@ -1,0 +1,63 @@
+
+/*
+  Do not edit directly
+  Generated on Mon, 03 Aug 2020 01:25:29 GMT
+*/
+
+$eg-layout-align-top: top !default;
+$eg-layout-align-bottom: bottom !default;
+$eg-layout-align-left: left !default;
+$eg-layout-align-right: right !default;
+$eg-layout-gap-horizontal-xs: 0.125rem !default;
+$eg-layout-gap-horizontal-sm: 0.25rem !default;
+$eg-layout-gap-horizontal-md: 0.5rem !default;
+$eg-layout-gap-horizontal-lg: 1rem !default;
+$eg-layout-gap-horizontal-xl: 1.5rem !default;
+$eg-layout-gap-horizontal-xxl: 2rem !default;
+$eg-layout-gap-vertical-xs: 0.125rem !default;
+$eg-layout-gap-vertical-sm: 0.25rem !default;
+$eg-layout-gap-vertical-md: 0.5rem !default;
+$eg-layout-gap-vertical-lg: 1rem !default;
+$eg-layout-gap-vertical-xl: 1.5rem !default;
+$eg-layout-gap-vertical-xxl: 2rem !default;
+$eg-layout-grid-xxs: 1 !default;
+$eg-layout-grid-xs: 2 !default;
+$eg-layout-grid-sm: 4 !default;
+$eg-layout-grid-md: 8 !default;
+$eg-layout-grid-lg: 16 !default;
+
+$token: (
+  'layout': (
+    'align': (
+      'top': $eg-layout-align-top,
+      'bottom': $eg-layout-align-bottom,
+      'left': $eg-layout-align-left,
+      'right': $eg-layout-align-right
+    ),
+    'gap': (
+      'horizontal': (
+        'xs': $eg-layout-gap-horizontal-xs,
+        'sm': $eg-layout-gap-horizontal-sm,
+        'md': $eg-layout-gap-horizontal-md,
+        'lg': $eg-layout-gap-horizontal-lg,
+        'xl': $eg-layout-gap-horizontal-xl,
+        'xxl': $eg-layout-gap-horizontal-xxl
+      ),
+      'vertical': (
+        'xs': $eg-layout-gap-vertical-xs,
+        'sm': $eg-layout-gap-vertical-sm,
+        'md': $eg-layout-gap-vertical-md,
+        'lg': $eg-layout-gap-vertical-lg,
+        'xl': $eg-layout-gap-vertical-xl,
+        'xxl': $eg-layout-gap-vertical-xxl
+      )
+    ),
+    'grid': (
+      'xxs': $eg-layout-grid-xxs,
+      'xs': $eg-layout-grid-xs,
+      'sm': $eg-layout-grid-sm,
+      'md': $eg-layout-grid-md,
+      'lg': $eg-layout-grid-lg
+    )
+  )
+);

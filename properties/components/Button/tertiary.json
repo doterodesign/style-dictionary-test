@@ -1,0 +1,18 @@
+{
+    "button": {
+        "tertiary": {
+            "color": {"value": "{color.font.tertiary.dark.default.value}"},
+            "default": {
+                "color": {"value": "{color.system.neutral.05.dark.default.value}"},
+                "background-color": {"value": "{color.background.primary.light.default.value}"}
+            },
+            "hover": {
+                "background-color": {"value": "{color.background.secondary.light.default.value}"}
+            },
+            "disabled": {
+                "color": {"value": "{color.font.quaternary.light.default.value}"},
+                "background-color": {"value": "{color.background.primary.light.default.value}"}
+            }
+        }
+    }
+}

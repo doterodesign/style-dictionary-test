@@ -1,0 +1,19 @@
+{
+    "component": {
+        "button": {
+            "max-height": {
+                "xs": {"value": "{size.28.value}", "attributes": {"font-size": "{component.button.font-size.sm.value}"}},
+                "sm": {"value": "{size.32.value}", "attributes": {"font-size": "{component.button.font-size.md.value}"}},
+                "md": {"value": "{size.40.value}", "attributes": {"font-size": "{component.button.font-size.md.value}"}},
+                "lg": {"value": "{size.48.value}", "attributes": {"font-size": "{component.button.font-size.lg.value}"}}
+            },
+            "font-size":   {
+                "sm": {"value": "{font.step.2.value}"},
+                "md": {"value": "{font.step.3.value}"},
+                "lg": {"value": "{font.step.4.value}"}
+            },
+            "line-height": {"value": "{font.lineHeight.xs.value}"},
+            "padding":     {"value": "{padding.md.value} {padding.sm.value}"}
+        }
+    }
+}

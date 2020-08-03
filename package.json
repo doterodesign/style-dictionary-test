@@ -8,7 +8,7 @@
     "style-dictionary": "^2.10.1"
   },
   "scripts": {
-    "build": "style-dictionary build"
+    "build": "style-dictionary build --config ./config.json"
   },
   "repository": {
     "type": "git",

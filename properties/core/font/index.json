@@ -1,0 +1,47 @@
+{
+    "font": {
+        "family": {
+            "default": { "value": "Nunito Sans, sans-serif" },
+            "alt":     { "value": "Publico, serif" }
+        },
+        "step": {
+            "1":  {  "value": "{size.11.value}" },
+            "2":  {  "value": "{size.12.value}" },
+            "3":  {  "value": "{size.14.value}" },
+            "4":  {  "value": "{size.16.value}" },
+            "5":  {  "value": "{size.18.value}" },
+            "6":  {  "value": "{size.20.value}" },
+            "7":  {  "value": "{size.24.value}" },
+            "8":  {  "value": "{size.28.value}" },
+            "9":  {  "value": "{size.32.value}" },
+            "10": {  "value": "{size.36.value}" },
+            "11": {  "value": "{size.42.value}" },
+            "12": {  "value": "{size.56.value}" },
+            "13": {  "value": "{size.60.value}" },
+            "14": {  "value": "{size.64.value}" },
+            "15": {  "value": "{size.76.value}" },
+            "16": {  "value": "{size.84.value}" },
+            "17": {  "value": "{size.92.value}" },
+            "18": {  "value": "{size.102.value}"},
+            "19": {  "value": "{size.112.value}"},
+            "20": {  "value": "{size.120.value}"},
+            "21": {  "value": "{size.132.value}"},
+            "22": {  "value": "{size.144.value}"},
+            "23": {  "value": "{size.156.value}"},
+            "base": {"value": "{font.step.2.value}"}
+        },
+        "lineHeight": {
+            "base": { "value": "{font.lineHeight.md.value}" },
+            "xs":   { "value": "100%"  },
+            "sm":   { "value": "115%"  },
+            "md":   { "value": "130%"  },
+            "lg":   { "value": "150%"  }
+        },
+        "weight": {
+            "light":    { "value": "300"},
+            "regular":  { "value": "400"},
+            "semibold": { "value": "600"},
+            "bold":     { "value": "800"}
+        }
+    }
+}

@@ -1,0 +1,31 @@
+
+/*
+  Do not edit directly
+  Generated on Mon, 03 Aug 2020 01:25:30 GMT
+*/
+
+$eg-button-tertiary-color: rgb(42, 43, 44) !default;
+$eg-button-tertiary-default-color: rgb(72, 74, 75) !default;
+$eg-button-tertiary-default-background-color: rgb(255, 255, 255) !default;
+$eg-button-tertiary-hover-background-color: rgb(251, 251, 251) !default;
+$eg-button-tertiary-disabled-color: rgb(208, 210, 212) !default;
+$eg-button-tertiary-disabled-background-color: rgb(255, 255, 255) !default;
+
+$token: (
+  'button': (
+    'tertiary': (
+      'color': $eg-button-tertiary-color,
+      'default': (
+        'color': $eg-button-tertiary-default-color,
+        'background-color': $eg-button-tertiary-default-background-color
+      ),
+      'hover': (
+        'background-color': $eg-button-tertiary-hover-background-color
+      ),
+      'disabled': (
+        'color': $eg-button-tertiary-disabled-color,
+        'background-color': $eg-button-tertiary-disabled-background-color
+      )
+    )
+  )
+);

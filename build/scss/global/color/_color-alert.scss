@@ -1,0 +1,55 @@
+
+/*
+  Do not edit directly
+  Generated on Mon, 03 Aug 2020 01:25:29 GMT
+*/
+
+$eg-color-alert-error-light-default: rgb(176, 35, 24) !default;
+$eg-color-alert-error-light-contrast: rgb(117, 0, 0) !default;
+$eg-color-alert-error-dark-default: rgb(219, 59, 57) !default;
+$eg-color-alert-error-dark-contrast: rgb(245, 116, 112) !default;
+$eg-color-alert-success-light-default: rgb(53, 121, 61) !default;
+$eg-color-alert-success-light-contrast: rgb(14, 93, 24) !default;
+$eg-color-alert-success-dark-default: rgb(91, 164, 99) !default;
+$eg-color-alert-success-dark-contrast: rgb(146, 195, 152) !default;
+$eg-color-alert-warning-light-default: rgb(148, 114, 0) !default;
+$eg-color-alert-warning-light-contrast: rgb(99, 77, 3) !default;
+$eg-color-alert-warning-dark-default: rgb(222, 174, 18) !default;
+$eg-color-alert-warning-dark-contrast: rgb(243, 207, 89) !default;
+
+$alert: (
+  'color': (
+    'alert': (
+      'error': (
+        'light': (
+          'default': $eg-color-alert-error-light-default,
+          'contrast': $eg-color-alert-error-light-contrast
+        ),
+        'dark': (
+          'default': $eg-color-alert-error-dark-default,
+          'contrast': $eg-color-alert-error-dark-contrast
+        )
+      ),
+      'success': (
+        'light': (
+          'default': $eg-color-alert-success-light-default,
+          'contrast': $eg-color-alert-success-light-contrast
+        ),
+        'dark': (
+          'default': $eg-color-alert-success-dark-default,
+          'contrast': $eg-color-alert-success-dark-contrast
+        )
+      ),
+      'warning': (
+        'light': (
+          'default': $eg-color-alert-warning-light-default,
+          'contrast': $eg-color-alert-warning-light-contrast
+        ),
+        'dark': (
+          'default': $eg-color-alert-warning-dark-default,
+          'contrast': $eg-color-alert-warning-dark-contrast
+        )
+      )
+    )
+  )
+);

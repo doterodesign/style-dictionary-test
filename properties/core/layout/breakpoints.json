@@ -1,0 +1,40 @@
+{
+    "breakpoint": {
+        "xs":  { 
+            "value":   "576px", 
+            "grid":    "{layout.grid.xxs.value}",
+            "margin":  "{spacing.0.value}",
+            "padding": "{spacing.6.value}"
+        },
+        "sm":  { 
+            "value":   "768px", 
+            "grid":    "{layout.grid.sm.value}",
+            "margin":  "{spacing.6.value}",
+            "padding": "{spacing.6.value}"
+        },
+        "md":  { 
+            "value":   "992px", 
+            "grid":    "{layout.grid.md.value}",
+            "margin":  "{spacing.6.value}",
+            "padding": "{spacing.6.value}"
+        },
+        "lg":  { 
+            "value": " 1200px", 
+            "grid":    "{layout.grid.lg.value}",
+            "margin":  "{spacing.6.value}",
+            "padding": "{spacing.6.value}"
+        },
+        "xl":  { 
+            "value": " 1440px", 
+            "grid":    "{layout.grid.lg.value}",
+            "margin":  "{spacing.7.value}",
+            "padding": "{spacing.6.value}"
+        },
+        "max": { 
+            "value": " 1584px", 
+            "grid":    "{layout.grid.lg.value}",
+            "margin":  "{spacing.6.value}",
+            "padding": "{spacing.6.value}"
+        }
+    }
+}

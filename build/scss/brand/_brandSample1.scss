@@ -1,0 +1,43 @@
+
+/*
+  Do not edit directly
+  Generated on Mon, 03 Aug 2020 01:25:30 GMT
+*/
+
+$eg-brand-brand-sample-1-color-primary-light-default: rgb(18, 102, 171) !default;
+$eg-brand-brand-sample-1-color-primary-light-contrast: rgb(24, 55, 89) !default;
+$eg-brand-brand-sample-1-color-primary-dark-default: rgb(26, 129, 203) !default;
+$eg-brand-brand-sample-1-color-primary-dark-contrast: rgb(89, 176, 238) !default;
+$eg-brand-brand-sample-1-color-secondary-light-default: rgb(0, 130, 150) !default;
+$eg-brand-brand-sample-1-color-secondary-light-contrast: rgb(0, 102, 107) !default;
+$eg-brand-brand-sample-1-color-secondary-dark-default: rgb(0, 153, 158) !default;
+$eg-brand-brand-sample-1-color-secondary-dark-contrast: rgb(71, 198, 212) !default;
+
+$token: (
+  'brand': (
+    'brandSample1': (
+      'color': (
+        'primary': (
+          'light': (
+            'default': $eg-brand-brand-sample-1-color-primary-light-default,
+            'contrast': $eg-brand-brand-sample-1-color-primary-light-contrast
+          ),
+          'dark': (
+            'default': $eg-brand-brand-sample-1-color-primary-dark-default,
+            'contrast': $eg-brand-brand-sample-1-color-primary-dark-contrast
+          )
+        ),
+        'secondary': (
+          'light': (
+            'default': $eg-brand-brand-sample-1-color-secondary-light-default,
+            'contrast': $eg-brand-brand-sample-1-color-secondary-light-contrast
+          ),
+          'dark': (
+            'default': $eg-brand-brand-sample-1-color-secondary-dark-default,
+            'contrast': $eg-brand-brand-sample-1-color-secondary-dark-contrast
+          )
+        )
+      )
+    )
+  )
+);

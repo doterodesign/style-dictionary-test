@@ -1,0 +1,61 @@
+
+/*
+  Do not edit directly
+  Generated on Mon, 03 Aug 2020 01:25:30 GMT
+*/
+
+$eg-component-card-header-primary-color: rgb(245, 245, 246) !default;
+$eg-component-card-header-primary-font-size:  1rem !default;
+$eg-component-card-header-secondary-color: rgb(236, 237, 239) !default;
+$eg-component-card-header-secondary-font-size:  0.875rem !default;
+$eg-component-card-body-primary-color: rgb(245, 245, 246) !default;
+$eg-component-card-body-primary-font-size:  0.875rem !default;
+$eg-component-card-body-secondary-color: rgb(236, 237, 239) !default;
+$eg-component-card-body-secondary-font-size:  0.75rem !default;
+$eg-component-card-background-primary-background-color: rgb(255, 255, 255) !default;
+$eg-component-card-background-secondary-background-color: rgb(251, 251, 251) !default;
+$eg-component-card-min-width-sm: 200px !default;
+$eg-component-card-min-width-md: 320px !default;
+$eg-component-card-min-width-lg: 400px !default;
+$eg-component-card-min-width-xl: 600px !default;
+
+$token: (
+  'component': (
+    'card': (
+      'header': (
+        'primary': (
+          'color': $eg-component-card-header-primary-color,
+          'font-size': $eg-component-card-header-primary-font-size
+        ),
+        'secondary': (
+          'color': $eg-component-card-header-secondary-color,
+          'font-size': $eg-component-card-header-secondary-font-size
+        )
+      ),
+      'body': (
+        'primary': (
+          'color': $eg-component-card-body-primary-color,
+          'font-size': $eg-component-card-body-primary-font-size
+        ),
+        'secondary': (
+          'color': $eg-component-card-body-secondary-color,
+          'font-size': $eg-component-card-body-secondary-font-size
+        )
+      ),
+      'background': (
+        'primary': (
+          'background-color': $eg-component-card-background-primary-background-color
+        ),
+        'secondary': (
+          'background-color': $eg-component-card-background-secondary-background-color
+        )
+      ),
+      'min-width': (
+        'sm': $eg-component-card-min-width-sm,
+        'md': $eg-component-card-min-width-md,
+        'lg': $eg-component-card-min-width-lg,
+        'xl': $eg-component-card-min-width-xl
+      )
+    )
+  )
+);

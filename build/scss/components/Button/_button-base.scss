@@ -1,0 +1,35 @@
+
+/*
+  Do not edit directly
+  Generated on Mon, 03 Aug 2020 01:25:30 GMT
+*/
+
+$eg-component-button-max-height-xs: 1.75rem !default;
+$eg-component-button-max-height-sm: 2rem !default;
+$eg-component-button-max-height-md: 2.5rem !default;
+$eg-component-button-max-height-lg: 3rem !default;
+$eg-component-button-font-size-sm: 0.75rem !default;
+$eg-component-button-font-size-md: 0.875rem !default;
+$eg-component-button-font-size-lg: 1rem !default;
+$eg-component-button-line-height: 100% !default;
+$eg-component-button-padding: 0.5rem 0.25rem !default;
+
+$token: (
+  'component': (
+    'button': (
+      'max-height': (
+        'xs': $eg-component-button-max-height-xs,
+        'sm': $eg-component-button-max-height-sm,
+        'md': $eg-component-button-max-height-md,
+        'lg': $eg-component-button-max-height-lg
+      ),
+      'font-size': (
+        'sm': $eg-component-button-font-size-sm,
+        'md': $eg-component-button-font-size-md,
+        'lg': $eg-component-button-font-size-lg
+      ),
+      'line-height': $eg-component-button-line-height,
+      'padding': $eg-component-button-padding
+    )
+  )
+);

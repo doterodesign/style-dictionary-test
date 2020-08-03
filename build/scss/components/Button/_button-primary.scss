@@ -1,0 +1,29 @@
+
+/*
+  Do not edit directly
+  Generated on Mon, 03 Aug 2020 01:25:30 GMT
+*/
+
+$eg-button-primary-color: rgb(255, 255, 255) !default;
+$eg-button-primary-default-background-color: rgb(18, 102, 171) !default;
+$eg-button-primary-hover-background-color: rgb(17, 33, 59) !default;
+$eg-button-primary-disabled-color: rgb(208, 210, 212) !default;
+$eg-button-primary-disabled-background-color: rgb(245, 245, 246) !default;
+
+$token: (
+  'button': (
+    'primary': (
+      'color': $eg-button-primary-color,
+      'default': (
+        'background-color': $eg-button-primary-default-background-color
+      ),
+      'hover': (
+        'background-color': $eg-button-primary-hover-background-color
+      ),
+      'disabled': (
+        'color': $eg-button-primary-disabled-color,
+        'background-color': $eg-button-primary-disabled-background-color
+      )
+    )
+  )
+);

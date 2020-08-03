@@ -1,0 +1,21 @@
+
+/*
+  Do not edit directly
+  Generated on Mon, 03 Aug 2020 01:25:29 GMT
+*/
+
+$eg-padding-xs: 0.125rem !default;
+$eg-padding-sm: 0.25rem !default;
+$eg-padding-md: 0.5rem !default;
+$eg-padding-lg: 1rem !default;
+$eg-padding-xl: 1.5rem !default;
+
+$tokens: (
+  'padding': (
+    'xs': $eg-padding-xs,
+    'sm': $eg-padding-sm,
+    'md': $eg-padding-md,
+    'lg': $eg-padding-lg,
+    'xl': $eg-padding-xl
+  )
+);

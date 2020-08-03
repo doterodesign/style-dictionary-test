@@ -1,8 +1,0 @@
-{
-    "themeName": {
-        "color": {
-            "primary":  { "value": "{brand.color.primary.value}"},
-            "secondary":{ "value": "{brand.color.secondary.value}"}
-        }
-    }
-}

@@ -1,8 +1,0 @@
-{
-    "brand": {
-        "color": {
-            "primary"   : { "value": "{color.system.teal.light.default.value}" },
-            "secondary" : { "value": "{color.system.yellow.light.default.value}" }
-        }
-    }
-  }

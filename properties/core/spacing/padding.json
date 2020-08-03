@@ -1,0 +1,9 @@
+{
+    "padding": {
+        "xs": {"value": "{spacing.2.value}"},
+        "sm": {"value": "{spacing.3.value}"},
+        "md": {"value": "{spacing.4.value}"},
+        "lg": {"value": "{spacing.6.value}"},
+        "xl": {"value": "{spacing.7.value}"}
+    }
+}

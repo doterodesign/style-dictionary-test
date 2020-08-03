@@ -1,0 +1,85 @@
+{
+    "style": {
+        "display": {
+            "font-family": {"value": "{font.family.alt.value}"},
+            "font-weight": {
+                "default": {"value": "{font.weight.regular.value}"},
+                "alt": {"value": "{font.weight.semibold.value}"}
+            },
+            "line-height": {"value": "{font.lineHeight.sm.value}"},
+
+            "01": {
+                "font-size": {"value": "{font.step.11.value}"},
+                "comment": "Used as a large display heading for the large breakpoint and up.",
+                "attributes": {"category": "style", "type": "font"}
+            },
+            "02": {
+                "font-size": {"value": "{font.step.10.value}"},
+                "comment": "Used as a large display heading for medium breakpoint and a small for the large breakpoint and up.",
+                "attributes": {"category": "style", "type": "font"}
+            }
+        },
+        "heading": {
+            "font-family": "{font.family.alt.value}",
+            "font-weight": {
+                "default": {"value": "{font.weight.regular.value}"},
+                "alt": {"value": "{font.weight.semibold.value}"}
+            },
+            "line-height": "{font.lineHeight.sm.value}",
+            "01": {
+                "font-size": {"value": "{font.step.9.value}"},
+                "attributes": {"category": "style", "type": "font"}
+            },
+            "02": {
+                "font-size": {"value": "{font.step.8.value}"},
+                "attributes": {"category": "style", "type": "font"}
+
+            },
+            "03": {
+                "font-size": {"value": "{font.step.7.value}"},
+                "line-height": {"value": "{font.lineHeight.md.value}"},
+                "attributes": {"category": "style", "type": "font"}
+
+            },
+            "04": {
+                "font-size": {"value": "{font.step.6.value}"},
+                "line-height": {"value": "{font.lineHeight.md.value}"},
+                "attributes": {"category": "style", "type": "font"}
+
+            }
+        },
+        "body": {
+            "font-family": {"value": "{font.family.default.value}"},
+            "font-weight": {
+                "default": {"value": "{font.weight.regular.value}"},
+                "alt": {"value": "{font.weight.semibold.value}"}
+            },
+            "line-height": {"value": "{font.lineHeight.lg.value}"},
+            "01": {
+                "font-size": { "value": " {font.step.5.value}"},
+                "attributes": {"category": "style", "type": "font"}
+
+            },
+            "02": {
+                "font-size": { "value": " {font.step.4.value}"},
+                "attributes": {"category": "style", "type": "font"}
+
+            },
+            "03": {
+                "font-size": { "value": " {font.step.3.value}"},
+                "attributes": {"category": "style", "type": "font"}
+
+            },
+            "04": {
+                "font-size": { "value": " {font.step.2.value}"},
+                "attributes": {"category": "style", "type": "font"}
+
+            },
+            "05": {
+                "size": { "value": " {font.step.1.value}"},
+                "attributes": {"category": "style", "type": "font"}
+
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "button": {
+        "primary": {
+            "color": {"value": "{color.font.primary.light.default.value}"},
+            "default": {
+                "background-color": {"value": "{color.system.blue.light.default.value}"}
+            },
+            "hover": {
+                "background-color": {"value": "{color.core.blue.500.value}"}
+            },
+            "disabled": {
+                "color": {"value": "{color.font.quaternary.light.default.value}"},
+                "background-color": {"value": "{color.background.tertiary.light.default.value}"}
+            }
+        }
+    }
+}

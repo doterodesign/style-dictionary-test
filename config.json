@@ -1,22 +1,253 @@
 {
   "source": ["properties/**/*.json"],
+
   "platforms": {
-    "scss": {
+    "scss-color": {
       "transformGroup": "scss",
-      "transforms": ["attribute/cti", "name/cti/kebab", "color/hsl", "size/rem"],
-      "buildPath": "build/scss/",
-      "files": [{
-        "destination": "_variables.scss",
-        "format": "scss/variables"
+      "prefix": "eg",
+      "transforms": ["attribute/cti", "name/cti/kebab", "color/rgb"],
+      "buildPath": "build/scss/global/color/",
+      "files": [
+        {
+          "destination": "_color-core.scss",
+          "format": "scss/variables",
+          "mapName": "core",
+          "filter": {
+            "attributes": {
+              "category": "color",
+              "type": "core"
+            }
+          }
+        },
+        {
+          "destination": "_color-system.scss",
+          "format": "scss/map-deep",
+          "mapName": "system",
+          "filter": {
+            "attributes": {
+              "category": "color",
+              "type": "system"
+            }
+          }
+        },
+        {
+          "destination": "_color-alert.scss",
+          "format": "scss/map-deep",
+          "mapName": "alert",
+          "filter": {
+            "attributes": {
+              "category": "color",
+              "type": "alert"
+            }
+          }
+        },
+        {
+        "destination": "_color-background.scss",
+        "format": "scss/map-deep",
+        "mapName": "background",
+        "filter": {
+          "attributes": {
+            "category": "color",
+            "type": "background"
+          }
+        }
+      },
+      {
+        "destination": "_color-font.scss",
+        "format": "scss/map-deep",
+        "mapName": "token",
+        "filter": {
+          "attributes": {
+            "category": "color",
+            "type": "font"
+          }
+        }
       }]
     },
-    "json": {
-      "transformGroup": "json",
-      "transforms": ["attribute/cti", "name/cti/kebab", "color/hsl", "size/rem"],
-      "buildPath": "build/json/",
+    "scss-font": {
+      "transformGroup": "scss",
+      "prefix": "eg",
+      "transforms": ["attribute/cti", "name/cti/kebab", "size/rem"],
+      "buildPath": "build/scss/global/font/",
       "files": [{
-        "destination": "_variables.json",
-        "format": "json/flat"
+        "destination": "_font-core.scss",
+        "format": "scss/map-deep",
+        "filter": {
+          "attributes": {
+            "category": "font"
+          }
+        }
+      },
+      {
+        "destination": "_font-style.scss",
+        "format": "scss/map-deep",
+        "mapName": "font-style",
+        "filter": {
+          "attributes": {
+            "category": "style"
+          }
+        }
+      }]
+    },
+    "scss-size": {
+      "transformGroup": "scss",
+      "prefix": "eg",
+      "transforms": ["attribute/cti", "name/cti/kebab", "size/rem"],
+      "buildPath": "build/scss/global/size/",
+      "files": [{
+        "destination": "_core.scss",
+        "format": "scss/map-flat",
+        "mapName": "size",
+        "filter": {
+          "attributes": {
+            "category": "size"
+          }
+        }
+      }]
+    },
+    "scss-spacing": {
+      "transformGroup": "scss",
+      "prefix": "eg",
+      "transforms": ["attribute/cti", "name/cti/kebab", "size/rem"],
+      "buildPath": "build/scss/global/spacing/",
+      "files": [{
+        "destination": "_core.scss",
+        "format": "scss/variables",
+        "filter": {
+          "attributes": {
+            "category": "spacing"
+          }
+        }
+      },
+      {
+        "destination": "_padding.scss",
+        "format": "scss/map-deep",
+        "filter": {
+          "attributes": {
+            "category": "padding"
+          }
+        }
+      }]
+    },
+    "scss-layout": {
+      "transformGroup": "scss",
+      "prefix": "eg",
+      "transforms": ["attribute/cti", "name/cti/kebab", "size/rem"],
+      "buildPath": "build/scss/global/layout/",
+      "files": [{
+        "destination": "_core.scss",
+        "format": "scss/map-deep",
+        "mapName": "token",
+        "filter": {
+          "attributes": {
+            "category": "layout"
+          }
+        }
+      },
+      {
+        "destination": "_breakpoints.scss",
+        "format": "scss/map-flat",
+        "mapName": "breakpoint",
+        "filter": {
+          "attributes": {
+            "category": "breakpoint"
+          }
+        }
+      }]
+    },
+    "scss-component-button": {
+      "transformGroup": "scss",
+      "prefix": "eg",
+      "transforms": ["attribute/cti", "name/cti/kebab", "color/rgb", "size/rem"],
+      "buildPath": "build/scss/components/Button/",
+      "files": [{
+        "destination": "_button-base.scss",
+        "format": "scss/map-deep",
+        "mapName": "token",
+        "filter": {
+          "attributes": {
+            "category": "component",
+            "type": "button"
+          }
+        }
+      },
+      {
+        "destination": "_button-primary.scss",
+        "format": "scss/map-deep",
+        "mapName": "token",
+        "filter": {
+          "attributes": {
+            "category": "button",
+            "type": "primary"
+          }
+        }
+      },
+      {
+        "destination": "_button-secondary.scss",
+        "format": "scss/map-deep",
+        "mapName": "token",
+        "filter": {
+          "attributes": {
+            "category": "button",
+            "type": "secondary"
+          }
+        }
+      },
+      {
+        "destination": "_button-tertiary.scss",
+        "format": "scss/map-deep",
+        "mapName": "token",
+        "filter": {
+          "attributes": {
+            "category": "button",
+            "type": "tertiary"
+          }
+        }
+      }]
+    },
+    "scss-component-card": {
+      "transformGroup": "scss",
+      "prefix": "eg",
+      "transforms": ["attribute/cti", "name/cti/kebab", "color/rgb", "size/rem"],
+      "buildPath": "build/scss/components/Card/",
+      "files": [{
+        "destination": "_card-base.scss",
+        "format": "scss/map-deep",
+        "mapName": "token",
+        "filter": {
+          "attributes": {
+            "category": "component",
+            "type": "card"
+          }
+        }
+      }]
+    },
+    "scss-brand": {
+      "transformGroup": "scss",
+      "prefix": "eg",
+      "transforms": ["attribute/cti", "name/cti/kebab", "color/rgb", "size/rem"],
+      "buildPath": "build/scss/brand/",
+      "files": [{
+        "destination": "_brandSample1.scss",
+        "format": "scss/map-deep",
+        "mapName": "token",
+        "filter": {
+          "attributes": {
+            "category": "brand",
+            "type": "brandSample1"
+          }
+        }
+      },
+      {
+        "destination": "_brandSample2.scss",
+        "format": "scss/map-deep",
+        "mapName": "token",
+        "filter": {
+          "attributes": {
+            "category": "brand",
+            "type": "brandSample2"
+          }
+        }
       }]
     }
   }

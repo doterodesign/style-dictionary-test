@@ -1,0 +1,197 @@
+
+/*
+  Do not edit directly
+  Generated on Mon, 03 Aug 2020 01:25:29 GMT
+*/
+
+$eg-color-system-blue-light-default: rgb(18, 102, 171) !default;
+$eg-color-system-blue-light-contrast: rgb(24, 55, 89) !default;
+$eg-color-system-blue-dark-default: rgb(26, 129, 203) !default;
+$eg-color-system-blue-dark-contrast: rgb(89, 176, 238) !default;
+$eg-color-system-teal-light-default: rgb(0, 130, 150) !default;
+$eg-color-system-teal-light-contrast: rgb(0, 102, 107) !default;
+$eg-color-system-teal-dark-default: rgb(0, 153, 158) !default;
+$eg-color-system-teal-dark-contrast: rgb(71, 198, 212) !default;
+$eg-color-system-green-light-default: rgb(53, 121, 61) !default;
+$eg-color-system-green-light-contrast: rgb(14, 93, 24) !default;
+$eg-color-system-green-dark-default: rgb(91, 164, 99) !default;
+$eg-color-system-green-dark-contrast: rgb(146, 195, 152) !default;
+$eg-color-system-red-light-default: rgb(176, 35, 24) !default;
+$eg-color-system-red-light-contrast: rgb(117, 0, 0) !default;
+$eg-color-system-red-dark-default: rgb(219, 59, 57) !default;
+$eg-color-system-red-dark-contrast: rgb(245, 116, 112) !default;
+$eg-color-system-orange-light-default: rgb(191, 57, 8) !default;
+$eg-color-system-orange-light-contrast: rgb(117, 31, 0) !default;
+$eg-color-system-orange-dark-default: rgb(228, 84, 27) !default;
+$eg-color-system-orange-dark-contrast: rgb(255, 147, 107) !default;
+$eg-color-system-yellow-light-default: rgb(148, 114, 0) !default;
+$eg-color-system-yellow-light-contrast: rgb(99, 77, 3) !default;
+$eg-color-system-yellow-dark-default: rgb(222, 174, 18) !default;
+$eg-color-system-yellow-dark-contrast: rgb(243, 207, 89) !default;
+$eg-color-system-purple-light-default: rgb(194, 66, 170) !default;
+$eg-color-system-purple-light-contrast: rgb(160, 36, 173) !default;
+$eg-color-system-purple-dark-default: rgb(219, 96, 197) !default;
+$eg-color-system-purple-dark-contrast: rgb(241, 135, 245) !default;
+$eg-color-system-neutral-01-light-default: rgb(255, 255, 255) !default;
+$eg-color-system-neutral-01-light-contrast: rgb(255, 255, 255) !default;
+$eg-color-system-neutral-01-dark-default: rgb(5, 6, 9) !default;
+$eg-color-system-neutral-01-dark-contrast: rgb(5, 6, 9) !default;
+$eg-color-system-neutral-02-light-default: rgb(251, 251, 251) !default;
+$eg-color-system-neutral-02-light-contrast: rgb(255, 255, 255) !default;
+$eg-color-system-neutral-02-dark-default: rgb(19, 19, 20) !default;
+$eg-color-system-neutral-02-dark-contrast: rgb(5, 6, 9) !default;
+$eg-color-system-neutral-03-light-default: rgb(245, 245, 246) !default;
+$eg-color-system-neutral-03-light-contrast: rgb(251, 251, 251) !default;
+$eg-color-system-neutral-03-dark-default: rgb(33, 34, 35) !default;
+$eg-color-system-neutral-03-dark-contrast: rgb(19, 19, 20) !default;
+$eg-color-system-neutral-04-light-default: rgb(236, 237, 239) !default;
+$eg-color-system-neutral-04-light-contrast: rgb(245, 245, 246) !default;
+$eg-color-system-neutral-04-dark-default: rgb(42, 43, 44) !default;
+$eg-color-system-neutral-04-dark-contrast: rgb(33, 34, 35) !default;
+$eg-color-system-neutral-05-light-default: rgb(227, 227, 229) !default;
+$eg-color-system-neutral-05-light-contrast: rgb(236, 237, 239) !default;
+$eg-color-system-neutral-05-dark-default: rgb(72, 74, 75) !default;
+$eg-color-system-neutral-05-dark-contrast: rgb(42, 43, 44) !default;
+$eg-color-system-neutral-06-light-default: rgb(208, 210, 212) !default;
+$eg-color-system-neutral-06-light-contrast: rgb(227, 227, 229) !default;
+$eg-color-system-neutral-06-dark-default: rgb(97, 98, 99) !default;
+$eg-color-system-neutral-06-dark-contrast: rgb(72, 74, 75) !default;
+
+$system: (
+  'color': (
+    'system': (
+      'blue': (
+        'light': (
+          'default': $eg-color-system-blue-light-default,
+          'contrast': $eg-color-system-blue-light-contrast
+        ),
+        'dark': (
+          'default': $eg-color-system-blue-dark-default,
+          'contrast': $eg-color-system-blue-dark-contrast
+        )
+      ),
+      'teal': (
+        'light': (
+          'default': $eg-color-system-teal-light-default,
+          'contrast': $eg-color-system-teal-light-contrast
+        ),
+        'dark': (
+          'default': $eg-color-system-teal-dark-default,
+          'contrast': $eg-color-system-teal-dark-contrast
+        )
+      ),
+      'green': (
+        'light': (
+          'default': $eg-color-system-green-light-default,
+          'contrast': $eg-color-system-green-light-contrast
+        ),
+        'dark': (
+          'default': $eg-color-system-green-dark-default,
+          'contrast': $eg-color-system-green-dark-contrast
+        )
+      ),
+      'red': (
+        'light': (
+          'default': $eg-color-system-red-light-default,
+          'contrast': $eg-color-system-red-light-contrast
+        ),
+        'dark': (
+          'default': $eg-color-system-red-dark-default,
+          'contrast': $eg-color-system-red-dark-contrast
+        )
+      ),
+      'orange': (
+        'light': (
+          'default': $eg-color-system-orange-light-default,
+          'contrast': $eg-color-system-orange-light-contrast
+        ),
+        'dark': (
+          'default': $eg-color-system-orange-dark-default,
+          'contrast': $eg-color-system-orange-dark-contrast
+        )
+      ),
+      'yellow': (
+        'light': (
+          'default': $eg-color-system-yellow-light-default,
+          'contrast': $eg-color-system-yellow-light-contrast
+        ),
+        'dark': (
+          'default': $eg-color-system-yellow-dark-default,
+          'contrast': $eg-color-system-yellow-dark-contrast
+        )
+      ),
+      'purple': (
+        'light': (
+          'default': $eg-color-system-purple-light-default,
+          'contrast': $eg-color-system-purple-light-contrast
+        ),
+        'dark': (
+          'default': $eg-color-system-purple-dark-default,
+          'contrast': $eg-color-system-purple-dark-contrast
+        )
+      ),
+      'neutral': (
+        '01': (
+          'light': (
+            'default': $eg-color-system-neutral-01-light-default,
+            'contrast': $eg-color-system-neutral-01-light-contrast
+          ),
+          'dark': (
+            'default': $eg-color-system-neutral-01-dark-default,
+            'contrast': $eg-color-system-neutral-01-dark-contrast
+          )
+        ),
+        '02': (
+          'light': (
+            'default': $eg-color-system-neutral-02-light-default,
+            'contrast': $eg-color-system-neutral-02-light-contrast
+          ),
+          'dark': (
+            'default': $eg-color-system-neutral-02-dark-default,
+            'contrast': $eg-color-system-neutral-02-dark-contrast
+          )
+        ),
+        '03': (
+          'light': (
+            'default': $eg-color-system-neutral-03-light-default,
+            'contrast': $eg-color-system-neutral-03-light-contrast
+          ),
+          'dark': (
+            'default': $eg-color-system-neutral-03-dark-default,
+            'contrast': $eg-color-system-neutral-03-dark-contrast
+          )
+        ),
+        '04': (
+          'light': (
+            'default': $eg-color-system-neutral-04-light-default,
+            'contrast': $eg-color-system-neutral-04-light-contrast
+          ),
+          'dark': (
+            'default': $eg-color-system-neutral-04-dark-default,
+            'contrast': $eg-color-system-neutral-04-dark-contrast
+          )
+        ),
+        '05': (
+          'light': (
+            'default': $eg-color-system-neutral-05-light-default,
+            'contrast': $eg-color-system-neutral-05-light-contrast
+          ),
+          'dark': (
+            'default': $eg-color-system-neutral-05-dark-default,
+            'contrast': $eg-color-system-neutral-05-dark-contrast
+          )
+        ),
+        '06': (
+          'light': (
+            'default': $eg-color-system-neutral-06-light-default,
+            'contrast': $eg-color-system-neutral-06-light-contrast
+          ),
+          'dark': (
+            'default': $eg-color-system-neutral-06-dark-default,
+            'contrast': $eg-color-system-neutral-06-dark-contrast
+          )
+        )
+      )
+    )
+  )
+);

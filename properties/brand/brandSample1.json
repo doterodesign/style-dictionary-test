@@ -1,0 +1,28 @@
+{
+    "brand": {
+        "brandSample1": {
+            "color": {
+                "primary": { 
+                    "light": {
+                        "default": {"value": "{color.system.blue.light.default.value}" },
+                        "contrast": {"value": "{color.system.blue.light.contrast.value}" }
+                    },
+                    "dark": {
+                        "default": {"value": "{color.system.blue.dark.default.value}" },
+                        "contrast": {"value": "{color.system.blue.dark.contrast.value}" }
+                    }
+                },
+                "secondary": { 
+                    "light": {
+                        "default": {"value": "{color.system.teal.light.default.value}" },
+                        "contrast": {"value": "{color.system.teal.light.contrast.value}" }
+                    },
+                    "dark": {
+                        "default": {"value": "{color.system.teal.dark.default.value}" },
+                        "contrast": {"value": "{color.system.teal.dark.contrast.value}" }
+                    }
+                }
+            }
+        }
+    }
+  }
